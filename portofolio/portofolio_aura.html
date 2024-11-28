@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            background-color: #444;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .about, .projects, .contact {
+            margin-bottom: 3rem;
+        }
+        .about img {
+            width: 200px;
+            border-radius: 50%;
+        }
+        .projects h2, .contact h2 {
+            margin-top: 0;
+        }
+        .project-card {
+            display: inline-block;
+            width: 30%;
+            background-color: white;
+            margin: 1rem;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+        }
+        .project-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .project-card h3 {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Portfolio Saya</h1>
+        <nav>
+            <a href="#about">Tentang Saya</a>
+            <a href="#pendidikan">Pendidikan</a>
+            <a href="#pekerjaan">Pekerjaan</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Container -->
+    <div class="container">
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>Tentang Saya</h2>
+            <div style="display: flex; align-items: center;">
+                <img src="aura.jpeg" alt="Foto Profil">
+                <div style="margin-left: 20px;">
+                    <p>Halo, nama saya Aura Amalia. Saya seorang Mahasiswa, berfokus pada Bidang Sistem Informasi. Saya memiliki pengalaman dalam Teknologi komputer.</p>
+                    <p>Saya senang bekerja dengan teknologi terbaru dan selalu bersemangat untuk belajar hal-hal baru.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="pendidikan" class="pendidikan">
+            <h2>pendidikan</h2>
+            <div class="pendidikan-card">
+                <img src="SD.jpg" alt="pendidikan 1">
+                <h3>SDN 50 PAUH</h3>
+                <p>Saya lulus tahun 2015</p>
+                <a href="#" target="_blank">Lihat pendidikan</a>
+            </div>
+            <div class="pendidikan-card">
+                <img src="SMP.JPG" alt="pendidikan 2">
+                <h3>SMPN 7 SAROLANGUN</h3>
+                <p>Saya lulus tahun 2019</p>
+                <a href="#" target="_blank">Lihat pendidikan</a>
+            </div>
+            <div class="pendidikan-card">
+                <img src="SMA.JPG" alt="pendidikan 3">
+                <h3>SMAN 3 SAROLANGUN</h3>
+                <p>Saya lulus tahun 2022</p>
+                <a href="#" target="_blank">Lihat pendidikan</a>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="pekerjaan" class="pekerjaan">
+            <h2>pekerjaan</h2>
+            <div class="pekerjaan-card">
+                <img src="LAUNDRY.JPG" alt="pekerjaan 1">
+                <h3>Pemilik Usaha Laundry</h3>
+                <p>Laundry Aurora</p>
+                <a href="#" target="_blank">Lihat pekerjaan</a>
+            </div>
+            <div class="pekerjaan-card">
+                <img src="SMP.JPG" alt="pekerjaan 2">
+                <h3>Guru SMPN 7 SAROLANGUN</h3>
+                <p>Saya lulus tahun 2019</p>
+                <a href="#" target="_blank">Lihat pekerjaan</a>
+            </div>
+            </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Kontak</h2>
+            <p>Jika Anda tertarik untuk bekerja sama atau memiliki pertanyaan, jangan ragu untuk menghubungi saya:</p>
+            <ul>
+                <li>Email: <a href="mailto:aurapjm38@gmail.com">aurapjm38@gmail.com</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Aura Amalia. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
